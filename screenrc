@@ -1,0 +1,14 @@
+# Disable startup message
+startup_message off
+
+# Increase scrollback
+defscrollback 20000
+
+# Enable scrollwheel
+termcapinfo xterm* ti@:te@
+
+# Autodetach screen when closing ssh connection
+autodetach on
+
+# Show tabs at screen's bottom
+hardstatus alwayslastline "%{=}%-w%{+b w}%n %t%{-b d}%+w"
