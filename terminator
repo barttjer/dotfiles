@@ -1,0 +1,142 @@
+[global_config]
+  dbus = False
+  enabled_plugins = ,
+  extra_styling = False
+  focus = mouse
+  homogeneous_tabbar = False
+  scroll_tabbar = True
+  title_font = Courier 10 Pitch Bold 10
+  title_inactive_bg_color = "#555753"
+  title_receive_bg_color = "#204a87"
+  title_transmit_bg_color = "#4e9a06"
+  title_use_system_font = False
+[keybindings]
+  close_term = None
+  close_window = None
+  hide_window = None
+  paste = <Primary><Shift>v
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = Green
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      profile = None
+      size = 1280, 864
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#000f13"
+    background_darkness = 0.9
+    background_type = transparent
+    copy_on_selection = True
+    cursor_color = "#00ff00"
+    font = Courier 10 Pitch 11
+    foreground_color = "#00ff00"
+    icon_bell = False
+    palette = "#000000:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    scrollback_lines = 20000
+    scrollbar_position = hidden
+    use_system_font = False
+    word_chars = "-A-Za-z0-9,./?%&@_"
+  [[Blue]]
+    background_color = "#000f13"
+    background_darkness = 0.9
+    background_type = transparent
+    copy_on_selection = True
+    cursor_color = "#729FCF"
+    font = Courier 10 Pitch 11
+    foreground_color = "#729fcf"
+    icon_bell = False
+    palette = "#000000:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    scrollback_lines = 20000
+    scrollbar_position = hidden
+    use_system_font = False
+    word_chars = "-A-Za-z0-9,./?%&@_"
+  [[Green]]
+    background_color = "#000f13"
+    background_darkness = 0.9
+    background_type = transparent
+    copy_on_selection = True
+    cursor_color = "#00ff00"
+    font = Courier 10 Pitch 11
+    foreground_color = "#00ff00"
+    icon_bell = False
+    palette = "#000000:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    scrollback_lines = 20000
+    scrollbar_position = hidden
+    use_system_font = False
+    word_chars = "-A-Za-z0-9,./?%&@_"
+  [[Orange]]
+    background_color = "#000f13"
+    background_darkness = 0.9
+    background_type = transparent
+    copy_on_selection = True
+    cursor_color = "#F57900"
+    font = Courier 10 Pitch 11
+    foreground_color = "#F57900"
+    icon_bell = False
+    palette = "#000000:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    scrollback_lines = 20000
+    scrollbar_position = hidden
+    use_system_font = False
+    word_chars = "-A-Za-z0-9,./?%&@_"
+  [[Purple]]
+    background_color = "#000f13"
+    background_darkness = 0.9
+    background_type = transparent
+    copy_on_selection = True
+    cursor_color = "#AD7FA8"
+    font = Courier 10 Pitch 11
+    foreground_color = "#AD7FA8"
+    icon_bell = False
+    palette = "#000000:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    scrollback_lines = 20000
+    scrollbar_position = hidden
+    use_system_font = False
+    word_chars = "-A-Za-z0-9,./?%&@_"
+  [[Red]]
+    background_color = "#000f13"
+    background_darkness = 0.9
+    background_type = transparent
+    copy_on_selection = True
+    cursor_color = "#F57900"
+    font = Courier 10 Pitch 11
+    foreground_color = "#EF2929"
+    icon_bell = False
+    palette = "#000000:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    scrollback_lines = 20000
+    scrollbar_position = hidden
+    use_system_font = False
+    word_chars = "-A-Za-z0-9,./?%&@_"
+  [[White]]
+    background_color = "#000f13"
+    background_darkness = 0.9
+    background_type = transparent
+    copy_on_selection = True
+    cursor_color = "#F57900"
+    font = Courier 10 Pitch 11
+    foreground_color = "#FFFFFF"
+    icon_bell = False
+    palette = "#000000:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    scrollback_lines = 20000
+    scrollbar_position = hidden
+    use_system_font = False
+    word_chars = "-A-Za-z0-9,./?%&@_"
+  [[Yellow]]
+    background_color = "#000f13"
+    background_darkness = 0.9
+    background_type = transparent
+    copy_on_selection = True
+    cursor_color = "#EDD400"
+    font = Courier 10 Pitch 11
+    foreground_color = "#edd400"
+    icon_bell = False
+    palette = "#000000:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    scrollback_lines = 20000
+    scrollbar_position = hidden
+    use_system_font = False
+    word_chars = "-A-Za-z0-9,./?%&@_"
