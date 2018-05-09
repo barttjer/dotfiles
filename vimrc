@@ -21,8 +21,8 @@ endif
 
 " === Syntax highlighting
 " Linenumber bar colors
-highlight LineNr term=bold cterm=NONE ctermfg=Grey ctermbg=None gui=NONE guifg=Grey guibg=NONE
-highlight CursorLineNr term=bold cterm=NONE ctermfg=Yellow ctermbg=DarkGrey gui=NONE guifg=Grey guibg=NONE
+highlight LineNr term=bold cterm=NONE ctermfg=Grey ctermbg=NONE gui=NONE guifg=Grey guibg=NONE
+highlight CursorLineNr term=bold cterm=NONE ctermfg=Grey ctermbg=NONE gui=NONE guifg=Grey guibg=NONE
 
 " Highlight trailing whitespaces
 highlight ExtraWhitespace ctermbg=red guibg=red
