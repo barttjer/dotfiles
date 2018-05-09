@@ -51,6 +51,4 @@ augroup filetypes
     autocmd FileType python    setlocal tabstop=8 expandtab shiftwidth=4 softtabstop=4
     autocmd FileType gitcommit setlocal tabstop=8 expandtab shiftwidth=2 softtabstop=2 textwidth=70
     autocmd FileType yaml      setlocal tabstop=8 expandtab shiftwidth=2 softtabstop=2
-    autocmd FileType make      setlocal noexpandtab
-    autocmd FileType sh        setlocal noexpandtab
 augroup END
