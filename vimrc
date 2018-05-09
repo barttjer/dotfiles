@@ -1,15 +1,16 @@
 " === General
 set ttyfast             " Indicate fast terminal
 set mouse=              " Disable mouse visual mode
-set hlsearch            " Highlight search matches
-set scrolloff=10        " Let 10 lines before/after cursor during scroll
+set hlsearch            " Highlight all matches when searching
+set scrolloff=10        " Keep 10 lines in screen when scrolling
 set ruler               " Show cursor position in bottom-right corner
-set modeline            " Enable modeline
-set number              " Enable linenumbers
-set relativenumber      " Make linenumbers relative to current position
+set modeline            " Enable vim options in file's header
+set number              " Enable linenumber bar
+set relativenumber      " Use relative linenumbers
 set numberwidth=6       " Linenumber bar width
 
 " Jump to the last position when reopening a file
+" - Added filetype gitcommit to ignore list
 augroup lastpos
     autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") && &filetype != "gitcommit" | exe "normal! g'\"" | endif
 augroup END
