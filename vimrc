@@ -43,7 +43,6 @@ noremap <F3> :set invnumber<CR>:set invrelativenumber<CR>
 inoremap <F3> <C-O>:set invnumber<CR><C-O>:set invrelativenumber<CR>
 
 " === Indentation
-set expandtab
 set shiftwidth=4
 set tabstop=4
 
