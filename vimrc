@@ -5,8 +5,8 @@ set hlsearch            " Highlight all matches when searching
 set scrolloff=10        " Keep 10 lines in screen when scrolling
 set ruler               " Show cursor position in bottom-right corner
 set modeline            " Enable vim options in file's header
-set number              " Enable linenumber bar
-set relativenumber      " Use relative linenumbers
+"set number              " Enable linenumber bar
+"set relativenumber      " Use relative linenumbers
 set numberwidth=6       " Linenumber bar width
 
 " Jump to the last position when reopening a file
