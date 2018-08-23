@@ -5,7 +5,6 @@ set hlsearch            " Highlight all matches when searching
 set scrolloff=10        " Keep 10 lines in screen when scrolling
 set ruler               " Show cursor position in bottom-right corner
 set modeline            " Enable vim options in file's header
-set numberwidth=6       " Linenumber bar width
 
 " Jump to the last position when reopening a file
 " - Added filetype gitcommit to ignore list
