@@ -50,7 +50,7 @@ set tabstop=4
 
 augroup filetypes
     autocmd FileType python    setlocal cinwords=if,elif,else,for,while,try,except,finally,def,class
-    autocmd FileType python    setlocal tabstop=8 expandtab shiftwidth=4 softtabstop=4
+    autocmd FileType python    setlocal tabstop=8 expandtab shiftwidth=4 softtabstop=4 ai
     autocmd FileType gitcommit setlocal tabstop=8 expandtab shiftwidth=2 softtabstop=2 textwidth=70
     autocmd FileType yaml      setlocal tabstop=8 expandtab shiftwidth=2 softtabstop=2
 augroup END
