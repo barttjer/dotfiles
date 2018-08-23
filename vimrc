@@ -29,10 +29,13 @@ highlight CursorLineNr term=bold cterm=NONE ctermfg=Grey ctermbg=NONE gui=NONE g
 highlight ExtraWhitespace ctermbg=red guibg=red
 syntax match ExtraWhitespace /\s\+$/
 
+highlight ColorColumn ctermbg=Black guibg=Black
+
 augroup filetypes
     " Highlight characters exceeding maximum line length
     autocmd FileType python highlight OverLength ctermbg=DarkRed ctermfg=white
     autocmd FileType python syntax match OverLength /\%>79v.\+/
+    autocmd FileType python set cc=73,80
 augroup END
 
 " === Key mappings
