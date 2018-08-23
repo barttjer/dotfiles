@@ -35,6 +35,8 @@ augroup filetypes
     " Highlight characters exceeding maximum line length
     autocmd FileType python highlight OverLength ctermbg=DarkRed ctermfg=white
     autocmd FileType python syntax match OverLength /\%>79v.\+/
+    " Highlight trailing whitespaces
+    autocmd FileType python syntax match ExtraWhitespace /\s\+$/
     autocmd FileType python set cc=73,80
 augroup END
 
